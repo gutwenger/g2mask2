@@ -22,7 +22,7 @@ const Cart = () => {
         <div className="cartEmpty">
             <h1 className="cartEmpty__h1">CART EMPTY</h1>
             <i className="cartEmpty__i fas fa-box-open"></i>
-            <Link className="cartEmpty__btn standardBtn--2" to="/">SHOP NOW</Link>
+            <Link className="cartEmpty__btn standardBtn--2" to="/g2mask2/">SHOP NOW</Link>
         </div>
     )
 

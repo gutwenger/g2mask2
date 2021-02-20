@@ -17,7 +17,7 @@ const MainItem = ({ item: { id, brand, name, price_current, price_original, img,
         )
 
     return (
-        <Link to={`/item/${id}`} className="mainitem">
+        <Link to={`/g2mask2/item/${id}`} className="mainitem">
             <div className="mainitem__up">
                 <img src={img} className="mainitem__up__img" alt={name} />
             </div>

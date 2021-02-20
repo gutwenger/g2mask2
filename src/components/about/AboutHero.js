@@ -43,7 +43,7 @@ const AboutHero = () => {
             <div className="aboutHero__filter aboutHero__filter__activate" ref={filterRef} />
             {sloganActivate ? slogan2: slogan1}
             <div className="aboutHero__btn">
-                <Link to="/" className="aboutHero__link" onMouseOver={()=>handleMouseOverBtn()} onMouseLeave={()=>handleMouseOverBtn()}>
+                <Link to="/g2mask2/" className="aboutHero__link" onMouseOver={()=>handleMouseOverBtn()} onMouseLeave={()=>handleMouseOverBtn()}>
                     SHOP NOW
                 </Link>
             </div>

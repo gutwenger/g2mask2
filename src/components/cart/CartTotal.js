@@ -16,7 +16,7 @@ const CartTotal = () => {
                     ${subtotal}
                 </p>
             </div>
-            <Link to="/checkout" className="cartTotal__subtotal__btn standardBtn--2">CHECKOUT</Link>
+            <Link to="/g2mask2/checkout" className="cartTotal__subtotal__btn standardBtn--2">CHECKOUT</Link>
         </div>
     )
 }

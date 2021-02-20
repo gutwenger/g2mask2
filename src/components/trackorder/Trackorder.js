@@ -61,7 +61,7 @@ const Trackorder = () => {
                     });
                     */
 
-                    history.push(`/order/${uuid}`)
+                    history.push(`/g2mask2/order/${uuid}`)
                 }
             })
         } else {

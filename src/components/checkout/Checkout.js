@@ -158,14 +158,14 @@ const Checkout = () => {
             if (result.detail && result.detail === "Given token not valid for any token type") {
                 displayMessage({ type: "Error", content: "Your previous login session is over. Please login again." });
                 logoutKeepCart();
-                history.push("/login");
+                history.push("/g2mask2/login");
                 return;
             }
 
             resetCart();
 
             history.push({
-                pathname: `/order/${result.uuid}`,
+                pathname: `/g2mask2/order/${result.uuid}`,
                 //state: { item: result }
             });
 
