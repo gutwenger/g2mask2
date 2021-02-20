@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/g2mask2/static/css/main.2d98d6a8.chunk.css",
+    "main.js": "/g2mask2/static/js/main.84fd4467.chunk.js",
+    "main.js.map": "/g2mask2/static/js/main.84fd4467.chunk.js.map",
+    "runtime-main.js": "/g2mask2/static/js/runtime-main.0062f439.js",
+    "runtime-main.js.map": "/g2mask2/static/js/runtime-main.0062f439.js.map",
+    "static/js/2.e0dce6bc.chunk.js": "/g2mask2/static/js/2.e0dce6bc.chunk.js",
+    "static/js/2.e0dce6bc.chunk.js.map": "/g2mask2/static/js/2.e0dce6bc.chunk.js.map",
+    "index.html": "/g2mask2/index.html",
+    "static/css/main.2d98d6a8.chunk.css.map": "/g2mask2/static/css/main.2d98d6a8.chunk.css.map",
+    "static/js/2.e0dce6bc.chunk.js.LICENSE.txt": "/g2mask2/static/js/2.e0dce6bc.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/g2mask2/static/media/home_banner.9811b863.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0062f439.js",
+    "static/js/2.e0dce6bc.chunk.js",
+    "static/css/main.2d98d6a8.chunk.css",
+    "static/js/main.84fd4467.chunk.js"
+  ]
+}
