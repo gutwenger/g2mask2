@@ -8,13 +8,13 @@ const ReglogForm = ({ page, forms, btnLabel, name, handleSubmit, submitError }) 
         ? (
             <p className="reglog__link">
                 Alredy have an account? 
-                <Link to="/g2mask2/login" className="reglog__link__link">LOGIN NOW!</Link>
+                <Link to="/login" className="reglog__link__link">LOGIN NOW!</Link>
             </p>
         )
         : (
             <p className="reglog__link">
                 Don't have an account? 
-                <Link to="/g2mask2/register" className="reglog__link__link">REGISTER Now!</Link>
+                <Link to="/register" className="reglog__link__link">REGISTER Now!</Link>
             </p>
         )
 

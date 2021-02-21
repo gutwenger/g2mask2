@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const NavbarLogo = () => {
     return (
-        <Link to="/g2mask2/" id="navbarlogo" className="navbarlogo">
+        <Link to="/" id="navbarlogo" className="navbarlogo">
             G2MASK
         </Link>
     )

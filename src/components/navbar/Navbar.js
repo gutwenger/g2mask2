@@ -83,15 +83,15 @@ const Navbar = () => {
     const navbar = displayNavbar && (
         <nav id="navbarcon" className="navbarcon">
             <ul id="navbarcon__ul" className="navbarcon__ul">
-                <NavbarLink key="navbarlink-about" path="/g2mask2/about" pageName="ABOUT" closeNavbar={closeNavbar} />
-                <NavbarLink key="navbarlink-home" path="/g2mask2/" pageName="SHOP" closeNavbar={closeNavbar} />
-                <NavbarLink key="navbarlink-trackorder" path="/g2mask2/trackorder" pageName="TRACK ORDER" closeNavbar={closeNavbar} />
-                <NavbarLink key="navbarlink-cart" path="/g2mask2/cart" pageName="CART" closeNavbar={closeNavbar} />
-                {!user && <NavbarLink key="navbarlink-register" path="/g2mask2/register" pageName="REGISTER" closeNavbar={closeNavbar} />}
-                {!user && <NavbarLink key="navbarlink-login" path="/g2mask2/login" pageName="LOGIN" closeNavbar={closeNavbar} />}
-                {user && <NavbarLink key="navbarlink-account" path="/g2mask2/account" pageName="ACCOUNT" closeNavbar={closeNavbar} />}
+                <NavbarLink key="navbarlink-about" path="/about" pageName="ABOUT" closeNavbar={closeNavbar} />
+                <NavbarLink key="navbarlink-home" path="/" pageName="SHOP" closeNavbar={closeNavbar} />
+                <NavbarLink key="navbarlink-trackorder" path="/trackorder" pageName="TRACK ORDER" closeNavbar={closeNavbar} />
+                <NavbarLink key="navbarlink-cart" path="/cart" pageName="CART" closeNavbar={closeNavbar} />
+                {!user && <NavbarLink key="navbarlink-register" path="/register" pageName="REGISTER" closeNavbar={closeNavbar} />}
+                {!user && <NavbarLink key="navbarlink-login" path="/login" pageName="LOGIN" closeNavbar={closeNavbar} />}
+                {user && <NavbarLink key="navbarlink-account" path="/account" pageName="ACCOUNT" closeNavbar={closeNavbar} />}
                 {user && <NavbarLogout key="navbarlink-logout" closeNavbar={closeNavbar} />}
-                {admin && <NavbarLink key="navbarlink-admin" path="/g2mask2/admin" pageName="ADMIN" closeNavbar={closeNavbar} />}
+                {admin && <NavbarLink key="navbarlink-admin" path="/admin" pageName="ADMIN" closeNavbar={closeNavbar} />}
             </ul>
         </nav>
     )

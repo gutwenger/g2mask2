@@ -1,6 +1,6 @@
 import './App.css';
 
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter } from "react-router-dom";
 
 import { AuthProvider } from "./context/AuthContext";
 import { CartProvider } from "./context/CartContext";
@@ -20,11 +20,11 @@ const App = () => {
                     <DisplayItemsProvider>
                         <CartProvider>
                             <MessageProvider>
-                                <Router>
+                                <HashRouter basename="/g2mask">
                                     <Navbar />
                                     <Content />
                                     <Footer />
-                                </Router>
+                                </HashRouter>
                             </MessageProvider>
                         </CartProvider>
                     </DisplayItemsProvider>

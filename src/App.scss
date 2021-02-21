@@ -9,6 +9,11 @@ $font-1: 'Rubik', sans-serif;
     box-sizing: border-box;
 }
 
+body {
+    background-color: white;
+}
+
+
 #root {
     box-sizing: border-box;
     width: calc(100vw - 15px);
@@ -24,6 +29,7 @@ $font-1: 'Rubik', sans-serif;
     width: 100%;
     max-width: 1000px;
 }
+
 
 .navbar {
     box-sizing: border-box;
