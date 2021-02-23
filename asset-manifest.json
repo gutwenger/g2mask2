@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/g2mask2/static/css/main.bdc07513.chunk.css",
-    "main.js": "/g2mask2/static/js/main.a9916483.chunk.js",
-    "main.js.map": "/g2mask2/static/js/main.a9916483.chunk.js.map",
+    "main.js": "/g2mask2/static/js/main.5fa70abf.chunk.js",
+    "main.js.map": "/g2mask2/static/js/main.5fa70abf.chunk.js.map",
     "runtime-main.js": "/g2mask2/static/js/runtime-main.0062f439.js",
     "runtime-main.js.map": "/g2mask2/static/js/runtime-main.0062f439.js.map",
     "static/js/2.38b2d518.chunk.js": "/g2mask2/static/js/2.38b2d518.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.0062f439.js",
     "static/js/2.38b2d518.chunk.js",
     "static/css/main.bdc07513.chunk.css",
-    "static/js/main.a9916483.chunk.js"
+    "static/js/main.5fa70abf.chunk.js"
   ]
 }
