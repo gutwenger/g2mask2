@@ -80,7 +80,7 @@ export const ADMIN_FORM_FIELDS = {
                 },
                 {
                     choice: "NO",
-                    value: true
+                    value: false
                 }
             ]
         },
@@ -95,7 +95,7 @@ export const ADMIN_FORM_FIELDS = {
                 },
                 {
                     choice: "NO",
-                    value: true
+                    value: false
                 }
             ]
         },

@@ -575,6 +575,171 @@ body {
     }
 }
 
+.account {
+    box-sizing: border-box;
+    height: fit-content;
+    width: 100%;
+    padding: 5px;
+    font-family: $font-1;
+    color: $color-2;
+
+    .account__h1 {
+        margin: 25px 0;
+        font-size: 25px;
+        font-weight: 300;
+        text-align: center;
+        letter-spacing: -2px;
+    }
+
+    .account__con {
+        box-sizing: border-box;
+        height: calc(100vh - 300px);
+        max-width: 650px;
+        margin: 0 auto;
+
+        .accountBasic {
+            box-sizing: border-box;
+            height: fit-content;
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ff33a030;
+
+            .accountBasic__grp {
+                box-sizing: border-box;
+                height: fit-content;
+                width: 100%;
+                margin-bottom: 10px;
+                display: grid;
+                grid-template-columns: 150px 1fr;
+                align-items: center;
+                
+                .accountBasic__grp__title {
+                    font-size: 13px;
+                    font-weight: 300;
+                }
+
+                .accountBasic__grp__data {
+                    font-weight: 300;
+                }
+            }
+
+            .accountBasic__grp:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        .accountOrders {
+            box-sizing: border-box;
+            height: calc(100% - 130px);
+            width: 100%;
+            margin-top: 10px;
+
+            .accountOrders__h2 {
+                font-size: 18px;
+                font-weight: 300;
+                text-align: center;
+            }
+
+            .accountOrders__con {
+                box-sizing: border-box;
+                height: calc(100% - 25px);
+                width: 100%;
+                margin: 10px 0;
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #ff33a030;
+                overflow-y: scroll;
+
+                a {
+                    text-decoration: none;
+                    color: $color-2;
+                }
+
+                .accountOrderCard {
+                    box-sizing: border-box;
+                    height: fit-content;
+                    width: 100%;
+                    padding: 10px;
+                    text-decoration: none;
+                    color: $color-2;
+                    margin-bottom: 15px;
+                    border-radius: 5px;
+                    border-bottom: 1px solid #ff33a010;
+
+                    .accountOrderCard__data {
+                        box-sizing: border-box;
+                        height: fit-content;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        .accountOrderCard__date {
+                            margin-bottom: 10px;
+                            font-size: 15px;
+                            font-weight: 300;
+                        }
+
+                        .accountOrderCard__ordernum {
+                            font-size: 13px;
+                        }
+
+                        .accountOrderCard__orderid {
+                            font-size: 13px;
+                        }    
+                    }
+
+                    .accountOrderCard__info {
+                        box-sizing: border-box;
+                        height: fit-content;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        .accountOrderCard__status {
+                            box-sizing: border-box;
+                            height: fit-content;
+                            width: fit-content;
+                            margin-top: 10px;
+                            padding: 5px 10px;
+                            border-radius: 100px;
+                            background-color: $color-2;
+                            font-size: 13px;
+                            color: white;
+                        }
+                    }
+                }
+
+                .accountOrderCard:last-child {
+                    margin: 0;
+                }
+
+                .accountOrderCard:hover {
+                    background-color: #ff33a010;
+                }
+            }
+
+            .accountOrders__empty {
+                box-sizing: border-box;
+                height: 300px;
+                width: 100%;
+                margin: 10px 0;
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #ff33a030;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
 .about {
     box-sizing: border-box;
     width: 100%;

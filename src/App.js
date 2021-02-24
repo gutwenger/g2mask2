@@ -1,6 +1,6 @@
 import './App.css';
 
-import { BrowserRouter as Router, HashRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import { AuthProvider } from "./context/AuthContext";
 import { CartProvider } from "./context/CartContext";

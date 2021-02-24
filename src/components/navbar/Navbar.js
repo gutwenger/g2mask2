@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link, useHistory, useLocation } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 import { useAuth, useAuthFunctions } from "../../context/AuthContext";
 import { useCart } from "../../context/CartContext";
@@ -33,7 +33,6 @@ const NavbarLink = ({ path, pageName, closeNavbar }) => {
 
 const NavbarLogout = ({ closeNavbar }) => {
 
-    const location = useLocation();
     const history = useHistory();
 
     const { logout } = useAuthFunctions();
@@ -44,8 +43,8 @@ const NavbarLogout = ({ closeNavbar }) => {
         logout();
         closeNavbar();
         resetCart();
-        history.push("/g2mask2/");
-        history.replace("/g2mask2/")
+        history.push("/");
+        history.replace("/")
         window.location.reload();
     }
 

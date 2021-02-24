@@ -16,7 +16,7 @@ const MainMenu = () => {
 
             let input = items.displayItems.length > 0 ? items.displayItems : items.items;
 
-            let paginatedItems = pagination({ input, itemsPerPage: 4 })
+            let paginatedItems = pagination({ input, itemsPerPage: 8 })
 
             let result = {
                 paginatedItems,

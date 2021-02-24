@@ -45,7 +45,6 @@ const Trackorder = () => {
         if (isValid) {
             getOrder({ uuid, user })
             .then(result => {
-                console.log(result);
                 // If error
                 if (result.detail) {
                     setError(result.detail);
@@ -61,7 +60,7 @@ const Trackorder = () => {
                     });
                     */
 
-                    history.push(`/g2mask2/order/${uuid}`)
+                    history.push(`/order/${uuid}`)
                 }
             })
         } else {

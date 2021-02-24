@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useCallback } from 'react';
+import { useHistory } from "react-router-dom";
 
 import { useAuth } from "../../context/AuthContext";
 import { useItems } from "../../context/ItemContext";
@@ -12,6 +13,8 @@ import { SERVER_URL } from "../../util/serverVariables";
 
 const Item = (props) => {
 
+    const history = useHistory();
+
     const { itemId } = props.match.params;
     const { items, updateItems } = useItems();
     const { user } = useAuth();
@@ -22,13 +25,19 @@ const Item = (props) => {
     const getItem = useCallback(
         (id) => {
             let result = items.items.filter(item => item.id === Number(id))[0];
-            result.reviews && setReviews(result.reviews);
-            return result;
+            if (result) {
+                result.reviews && setReviews(result.reviews);
+                return result;
+            } else {
+                history.push("/404");
+                return;
+            }
         },
-        [items],
+        [items, history],
     )
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         if (items) {
             setItem(getItem(itemId));
         }

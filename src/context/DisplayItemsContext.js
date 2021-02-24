@@ -26,7 +26,6 @@ export const DisplayItemsProvider = ({ children }) => {
         fetch(`${SERVER_URL}eshop/filter/`)
         .then(response => response.json())
         .then(result => {
-            console.log(result);
             setFilter(result);
         })
     }

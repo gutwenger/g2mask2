@@ -488,6 +488,150 @@ body {
   background-color: #ff33a010;
 }
 
+.account {
+  box-sizing: border-box;
+  height: fit-content;
+  width: 100%;
+  padding: 5px;
+  font-family: "Rubik", sans-serif;
+  color: #ff33a0;
+}
+.account .account__h1 {
+  margin: 25px 0;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: -2px;
+}
+.account .account__con {
+  box-sizing: border-box;
+  height: calc(100vh - 300px);
+  max-width: 650px;
+  margin: 0 auto;
+}
+.account .account__con .accountBasic {
+  box-sizing: border-box;
+  height: fit-content;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ff33a030;
+}
+.account .account__con .accountBasic .accountBasic__grp {
+  box-sizing: border-box;
+  height: fit-content;
+  width: 100%;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+}
+.account .account__con .accountBasic .accountBasic__grp .accountBasic__grp__title {
+  font-size: 13px;
+  font-weight: 300;
+}
+.account .account__con .accountBasic .accountBasic__grp .accountBasic__grp__data {
+  font-weight: 300;
+}
+.account .account__con .accountBasic .accountBasic__grp:last-child {
+  margin-bottom: 0;
+}
+.account .account__con .accountOrders {
+  box-sizing: border-box;
+  height: calc(100% - 130px);
+  width: 100%;
+  margin-top: 10px;
+}
+.account .account__con .accountOrders .accountOrders__h2 {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+.account .account__con .accountOrders .accountOrders__con {
+  box-sizing: border-box;
+  height: calc(100% - 25px);
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ff33a030;
+  overflow-y: scroll;
+}
+.account .account__con .accountOrders .accountOrders__con a {
+  text-decoration: none;
+  color: #ff33a0;
+}
+.account .account__con .accountOrders .accountOrders__con .accountOrderCard {
+  box-sizing: border-box;
+  height: fit-content;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  color: #ff33a0;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border-bottom: 1px solid #ff33a010;
+}
+.account .account__con .accountOrders .accountOrders__con .accountOrderCard .accountOrderCard__data {
+  box-sizing: border-box;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.account .account__con .accountOrders .accountOrders__con .accountOrderCard .accountOrderCard__data .accountOrderCard__date {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.account .account__con .accountOrders .accountOrders__con .accountOrderCard .accountOrderCard__data .accountOrderCard__ordernum {
+  font-size: 13px;
+}
+.account .account__con .accountOrders .accountOrders__con .accountOrderCard .accountOrderCard__data .accountOrderCard__orderid {
+  font-size: 13px;
+}
+.account .account__con .accountOrders .accountOrders__con .accountOrderCard .accountOrderCard__info {
+  box-sizing: border-box;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.account .account__con .accountOrders .accountOrders__con .accountOrderCard .accountOrderCard__info .accountOrderCard__status {
+  box-sizing: border-box;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 100px;
+  background-color: #ff33a0;
+  font-size: 13px;
+  color: white;
+}
+.account .account__con .accountOrders .accountOrders__con .accountOrderCard:last-child {
+  margin: 0;
+}
+.account .account__con .accountOrders .accountOrders__con .accountOrderCard:hover {
+  background-color: #ff33a010;
+}
+.account .account__con .accountOrders .accountOrders__empty {
+  box-sizing: border-box;
+  height: 300px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ff33a030;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .about {
   box-sizing: border-box;
   width: 100%;

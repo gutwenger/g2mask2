@@ -10,9 +10,9 @@ const Footer = () => {
                 </Link>
             </div>
             <div id="footernav" className="footernav">
-                <Link to="/g2mask2/about" className="footernav__link">ABOUT</Link>
-                <Link to="/g2mask2/about" className="footernav__link">CAREER</Link>
-                <Link to="/g2mask2/about" className="footernav__link">CONTACT</Link>
+                <Link to="/about" className="footernav__link">ABOUT</Link>
+                <Link to="/about" className="footernav__link">CAREER</Link>
+                <Link to="/about" className="footernav__link">CONTACT</Link>
             </div>
             <div id="footerFollow" className="footerFollow">
                 <h2 className="footerFollow__h2">FOLLOW US ON:</h2>
