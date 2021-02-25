@@ -12,7 +12,7 @@ Backend: Python, Django, Django REST Framework
 ## Frontend
 
 ### Shop's menu
-![Menu](g2mask-frontend/g2mask/src/assets/image/menu.png?raw=true "Menu")
+![Menu](/g2mask-frontend/g2mask/src/assets/image/menu.png?raw=true "Menu")
 
 
 ### Add items to cart
