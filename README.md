@@ -11,12 +11,23 @@ Backend: Python, Django, Django REST Framework
 
 ## Frontend
 
-### Shop's menu
+### Shop's Menu
 ![Menu](/src/assets/image/menu.png?raw=true "Menu")
 
+### Item's Detail Page
+![Item](/src/assets/image/item_details.png "Item's Detail Page")
 
-### Add items to cart
+### Cart
+![Cart](/src/assets/image/cart.png "Cart")
 
+### Checkout
+![Checkout](/src/assets/image/checkout.png "Checkout")
 
+### Track Order
+![Track](/src/assets/image/trackorder.png "Track Order")
 
-### Submit orders
+### Order
+![Order](/src/assets/image/order.png "Order")
+
+### Account
+![Account](/src/assets/image/account.png "Account")
