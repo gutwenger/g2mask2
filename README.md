@@ -6,10 +6,10 @@ Please feel free to pay a visit at [https://gutwenger.github.io/g2mask2/#/g2mask
 
 ## Stacks
 
-Frontend: HTML, CSS, SASS, JavaSript and React
+Frontend: HTML, CSS, SASS, JavaSript and React\
 Backend: Python, Django, Django REST Framework
 
-## Frontend
+## Screenshots
 
 ### Shop's Menu
 ![Menu](/src/assets/image/menu.png?raw=true "Menu")

@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div id="footer" className="footer">
             <div id="footerLogo" className="footerLogo">
-                <Link to="/g2mask2/" className="footerLogo__link">
+                <Link to="/" className="footerLogo__link">
                     G2MASK
                 </Link>
             </div>
